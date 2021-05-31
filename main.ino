@@ -2,7 +2,7 @@ int meanval = 0; // Mean illuminance value in LED OFF state - for robust system
 int input = 0; // Save analog input from A0
 int signalset[10]; // Calculate grad
 float grad = 0.0; // Save grad
-int bitbuf[9]={0,0,0,0,0,0,0,0,0}; // bitbuf means one character(Byte), use 9 bits because of parity bit and indexing problem 
+int bitbuf[9]={0,0,0,0,0,0,0,0,0}; // bitbuf means one character(Byte), use 9 bits because of parity bit and indexing problem. 7 bits for ascii
 char Byte; // save byte
 
 

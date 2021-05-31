@@ -1,4 +1,4 @@
-int meanval = 0; // check 
+int meanval = 0; // check illuminance
 int first = 0; // for making an average rate of change
 int last = 0; // for making an average rate of change
 int input = 0; // for saving analog input from A0
